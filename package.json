@@ -1,7 +1,7 @@
 {
-  "name": "@loomchild/webflow-alpinejs",
-  "version": "2.1.0",
-  "description": "A simple script to allow using Alpine.js in Webflow designer.",
+  "name": "@cshingleton/webflow-alpinejs",
+  "version": "2.1.1",
+  "description": "A forked version of @loomchild's simple script to allow using Alpine.js in Webflow designer.",
   "scripts": {
     "build": "esbuild index.js style.css init.js components/* --bundle --minify --sourcemap --outdir=dist",
     "serve": "esbuild index.js style.css init.js components/* --bundle --outdir=dist --serve=8001",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loomchild/webflow-alpinejs.git"
+    "url": "git+https://github.com/cshingleton/webflow-alpinejs.git"
   },
   "author": "Jarek Lipski",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/loomchild/webflow-alpinejs/issues"
+    "url": "https://github.com/cshingleton/webflow-alpinejs/issues"
   },
-  "homepage": "https://github.com/loomchild/webflow-alpinejs",
+  "homepage": "https://github.com/cshingleton/webflow-alpinejs",
   "main": "dist/index.js",
   "files": [
     "dist/*"

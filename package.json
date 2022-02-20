@@ -1,5 +1,5 @@
 {
-  "name": "@cshingleton/webflow-alpinejs",
+  "name": "@cshingleton/wf-alpinejs",
   "version": "2.1.1",
   "description": "A forked version of @loomchild's simple script to allow using Alpine.js in Webflow designer.",
   "scripts": {

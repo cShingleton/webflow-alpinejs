@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PREFIX="/npm/@cshingleton/webflow-alpinejs@2"
+PREFIX="/npm/@cshingleton/wf-alpinejs@2"
 
 for file in `find dist/ -type f`
 do

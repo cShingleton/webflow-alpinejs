@@ -19,6 +19,14 @@ document.addEventListener('alpine:init', () => {
         this.slide--
       }
     },
+    
+    rolloverSlide () {
+      if (this.slide + 1 < this.slideCount) {
+        this.slide++
+      } else {
+        this.slide = 0
+      }
+    },
 
     init () {
       if (targetEl) {
